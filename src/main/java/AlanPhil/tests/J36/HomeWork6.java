@@ -10,7 +10,7 @@ public class HomeWork6 {
     public static void main(String[] args) {
         ArrayTasks tasks = new ArrayTasks();
         DataBase dataBase = new DataBase("school.db");
-        logger.info("Start loggind");
+        logger.info("Start log");
         logger.info(logger.getClass().getName());
 
         int[] startArray = new int[SIZE];
