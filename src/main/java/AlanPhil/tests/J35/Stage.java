@@ -1,8 +1,8 @@
-package main.java.tests.J35;
+package AlanPhil.tests.J35;
 
 abstract class Stage {
-    protected int length;
-    protected String description;
+    int length;
+    String description;
 
     public String getDescription() {
         return description;

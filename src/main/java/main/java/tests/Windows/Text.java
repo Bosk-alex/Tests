@@ -14,7 +14,7 @@ class Text extends JFrame {
         setVisible(true);
 
         JTextField text = new JTextField("Input some text");
-        text.setFont(new Font("Serif", 4, 50));
+        text.setFont(new Font("Serif", Font.BOLD, 50));
         panel.add(text);
     }
 

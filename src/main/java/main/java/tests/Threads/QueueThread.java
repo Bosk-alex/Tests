@@ -1,16 +1,19 @@
 package main.java.tests.Threads;
 
+@SuppressWarnings({"ALL", "unused"})
 class QueueThread extends Thread {
     private static int currentMax = 1;
     private final int mainID;
     private final Object waitObject;
 
 
+    @SuppressWarnings("unused")
     private QueueThread(int id, Object waitObject) {
         mainID = id;
         this.waitObject = waitObject;
     }
 
+    @SuppressWarnings("unused")
     public static void example() {
         Object waitObject = new Object();
         for (int i = currentMax; i <= 10 ; i++) {

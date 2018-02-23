@@ -1,6 +1,6 @@
-package main.java.tests.J35;
+package AlanPhil.tests.J35;
 
-public class Car implements Runnable {
+class Car implements Runnable {
     private static int CARS_COUNT;
     static {
         CARS_COUNT = 0;

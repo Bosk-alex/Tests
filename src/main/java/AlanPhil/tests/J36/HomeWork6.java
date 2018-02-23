@@ -3,7 +3,7 @@ package AlanPhil.tests.J36;
 import java.util.Arrays;
 import org.slf4j.*;
 
-public class HomeWork6 {
+class HomeWork6 {
     private static final int SIZE = 30;
     public static final Logger logger = LoggerFactory.getLogger(HomeWork6.class);
 

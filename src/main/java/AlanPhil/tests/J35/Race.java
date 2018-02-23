@@ -1,9 +1,10 @@
-package main.java.tests.J35;
+package AlanPhil.tests.J35;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Race {
+class Race {
+    @SuppressWarnings("CanBeFinal")
     private ArrayList<Stage> stages;
     public ArrayList<Stage> getStages() { return stages; }
     Race(Stage... stages) {

@@ -4,6 +4,7 @@ import java.sql.*;
 
 class DataBase {
 
+    @SuppressWarnings("CanBeFinal")
     private String url;
 
     DataBase(String name) {
@@ -66,7 +67,7 @@ class DataBase {
     boolean updateDB(String scoreUpdate) {
         try ( // Sources
               Connection connection = DriverManager.getConnection(url);
-              Statement statement = connection.createStatement();
+              Statement statement = connection.createStatement()
         ) { // Clean table
             statement.executeUpdate(
                     "UPDATE students SET score = " + scoreUpdate + " WHERE family = \"Smith1\""
@@ -81,7 +82,7 @@ class DataBase {
     String selectFromDB(String scoreForSelect) {
         try ( // Sources
               Connection connection = DriverManager.getConnection(url);
-              Statement statement = connection.createStatement();
+              Statement statement = connection.createStatement()
         ) { // Clean table
             ResultSet resultSet = statement.executeQuery(
                     "SELECT * FROM students WHERE score = " + scoreForSelect

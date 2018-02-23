@@ -1,4 +1,4 @@
-package main.java.tests.J35;
+package AlanPhil.tests.J35;
 
 class Tunnel extends Stage {
     Tunnel() {

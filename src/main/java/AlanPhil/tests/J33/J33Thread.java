@@ -1,4 +1,4 @@
-package main.java.tests.J33;
+package AlanPhil.tests.J33;
 
 class J33Thread implements Runnable {
     private final J33Writer writer;

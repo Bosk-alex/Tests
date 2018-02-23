@@ -1,6 +1,6 @@
-package main.java.tests.J35;
+package AlanPhil.tests.J35;
 
-public class SpeedRacer {
+class SpeedRacer {
     private static final int CARS_COUNT = 4;
     public static void main(String[] args) {
         System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Подготовка!!!");

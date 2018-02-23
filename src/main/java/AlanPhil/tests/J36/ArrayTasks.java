@@ -45,9 +45,16 @@ class ArrayTasks {
         int count1 = 0;
         int count4 = 0;
         for (int i : array) {
-            if (i == 1) count1++;
-            else if (i == 4) count4++;
-            else return false;
+            switch (i) {
+                case 1:
+                    count1++;
+                    break;
+                case 4:
+                    count4++;
+                    break;
+                default:
+                    return false;
+            }
         }
         return (count1 != 0 && count4 != 0 && (count1 + count4) == array.length);
     }

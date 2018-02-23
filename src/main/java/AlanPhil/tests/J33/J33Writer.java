@@ -1,4 +1,4 @@
-package main.java.tests.J33;
+package AlanPhil.tests.J33;
 
 import java.io.FileWriter;
 import java.io.IOException;
